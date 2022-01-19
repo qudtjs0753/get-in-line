@@ -10,7 +10,7 @@ import java.util.function.Predicate;
  * @Author: kbs
  */
 @Getter
-@RequiredArgsConstructor 
+@RequiredArgsConstructor
 public enum ErrorCode {
 
     OK(0, ErrorCategory.CLIENT_SIDE, "bad request"),
