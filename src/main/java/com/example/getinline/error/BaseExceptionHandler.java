@@ -12,6 +12,7 @@ import java.util.Map;
 /**
  * @Author: kbs
  */
+//exception handler를 전체적으로 적용하기 위해, scope를 넓히기 위해 controller advice를 사용
 @ControllerAdvice
 public class BaseExceptionHandler {
 

@@ -20,6 +20,7 @@ import java.util.Map;
 @Controller
 public class BaseErrorController implements ErrorController {
 
+    //뷰와 json body의 exception출력을 따로 구분. -> produces로.
     @RequestMapping(path = "/error", produces = MediaType.TEXT_HTML_VALUE)
     public ModelAndView errorHtml(HttpServletResponse response){
         HttpStatus status = HttpStatus.valueOf(response.getStatus());
